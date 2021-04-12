@@ -59,37 +59,37 @@ const displayModal = (item, source, name, menu) => {
 //     })
 // }
 
-displayModal(tortilla, '/tortilla.jpg','Green Tortilla with Smoked Bacon', 
+displayModal(tortilla, 'tortilla.jpg','Green Tortilla with Smoked Bacon', 
 'Delicious organic tortilla honey smoked with bacon');
 
-displayModal(roastedTomatoes,'/tortilla.jpg','Roasted Tomatoes and Avocado on Toast',
+displayModal(roastedTomatoes,'tortilla.jpg','Roasted Tomatoes and Avocado on Toast',
 'Fresh grilled roasted tomatoes and avocado on toast');
 
-displayModal(gingerChicken,'/tortilla.jpg','Ginger Chicken',
+displayModal(gingerChicken,'tortilla.jpg','Ginger Chicken',
 'Delicious ginger chicken stirfried with ginger and green onions');
 
-displayModal(shakshuka,'/tortilla.jpg','Shakshuka',
+displayModal(shakshuka,'tortilla.jpg','Shakshuka',
 'Shakshuka');
 
-displayModal(gingerCake,'/tortilla.jpg','Jamaican Ginger and Caramel Cake',
+displayModal(gingerCake,'tortilla.jpg','Jamaican Ginger and Caramel Cake',
 'Delicious Jamaican moist caramel cake');
 
-displayModal(lavaCake,'/tortilla.jpg','Chocolate Volcanic Lava',
+displayModal(lavaCake,'tortilla.jpg','Chocolate Volcanic Lava',
 'Melted lava cake');
 
-displayModal(streusal,'/tortilla.jpg','Teff, Banana and Apricot Streusal',
+displayModal(streusal,'tortilla.jpg','Teff, Banana and Apricot Streusal',
 'Glazing moist streusal');
 
-displayModal(sangria,'/tortilla.jpg','Virgin Watermelon Sangria',
+displayModal(sangria,'tortilla.jpg','Virgin Watermelon Sangria',
 'Refreshing acohol-free watermelon sangria for that perfect summer!');
 
-displayModal(mimosa,'/tortilla.jpg','Classic Mimosas',
+displayModal(mimosa,'tortilla.jpg','Classic Mimosas',
 'Your classic mimosa! Say no more!');
 
-displayModal(bellini,'/tortilla.jpg','Bellini',
+displayModal(bellini,'tortilla.jpg','Bellini',
 'Yummy bellini');
 
-displayModal(juice,'/tortilla.jpg','Orange and Cranberry Juice',
+displayModal(juice,'tortilla.jpg','Orange and Cranberry Juice',
 'Freshly squeezed orange and cranberry juice');
 
 
