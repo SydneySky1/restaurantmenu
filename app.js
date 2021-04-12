@@ -32,9 +32,6 @@ event.target.nextElementSibling.style.textShadow ='1px 1px 3px black';
  event.target.nextElementSibling.style.color='';
  event.target.nextElementSibling.style.textShadow='';
  modal.style.display ='none';
- modal.style.display = event.pageX;
- modal.style.display = event.pageY;
- 
 
  });
 }
@@ -45,7 +42,7 @@ const displayModal = (item, source, name, menu) => {
      title.innerText= `${name}`;   
      pic.src = `${source}`;  
      info.innerText = `${menu}`;
-     modal.append(modalImg);
+     
     })
 }
 
