@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="outer">
+        
+            <div class="container-account">
+                <div class="icons">
+                <h1>Create Account</h1>
+                <img src="facebook.png">
+                <img src="insta.png">
+                <img src="twitter.png">
+                <img src="google.png">
+                </div>
+                <h2 class="word">Or use your email for registration:</h2>
+       
+
+                <div class="container-form">
+                <form action="#">
+                   
+                   
+                    <input class="field" type="text" placeholder="Name" id="username" name="username">
+                    <input class="field" type="email" placeholder="Email" id="email" name="email" required>
+                    <input class="field" type="password" placeholder="Password" id="password" name="password">
+
+                    <div class="check">
+                        <input type="checkbox" id="terms" onclick="terms_changed(this)">
+                        <label for="terms">
+                            I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy.</a>
+                        </label>
+                    </div>
+
+                    <div class="card_footer">
+                        <button type="submit" id="submit_button" class="card_button card_button-primary" disabled>Sign Up</button>
+                        <button type="submit" id="submit_button1" class="card_button card_button-secondary">Sign In</button>
+                    </div>
+                </form>
+
+                </div>
+            </div>
+
+        <div class="container-picture">
+            <figure>
+                <img class="picture" src="pix2.jpeg" alt="colorful marshmellows">
+            </figure>
+        </div>
+
+         </div>
+    </div>
+    <script type="text/javascript" src="form.js"></script>
+</body>
+
+</html>
